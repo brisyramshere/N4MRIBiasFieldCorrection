@@ -15,8 +15,55 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MRIBiasCorrection.cpp">
+    <ClCompile Include="ImageCompare.cxx">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="itkBSplineControlPointImageFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="itkImageToVTKImageFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="itkN3MRIBiasFieldCorrectionImageFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="itkN4MRIBiasFieldCorrectionImageFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="itkVTKImageToImageFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRIBiasFieldCorrection.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRIBiasFiledCorrection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRIData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="itkBSplineControlPointImageFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="itkImageToVTKImageFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="itkN3MRIBiasFieldCorrectionImageFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="itkN4MRIBiasFieldCorrectionImageFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="itkVTKImageToImageFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRIData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRIBiasFiledCorrection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

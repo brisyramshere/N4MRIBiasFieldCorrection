@@ -18,6 +18,26 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageCompare.cxx" />
+    <ClCompile Include="itkBSplineControlPointImageFilter.cpp" />
+    <ClCompile Include="itkImageToVTKImageFilter.cpp" />
+    <ClCompile Include="itkN3MRIBiasFieldCorrectionImageFilter.cpp" />
+    <ClCompile Include="itkN4MRIBiasFieldCorrectionImageFilter.cpp" />
+    <ClCompile Include="itkVTKImageToImageFilter.cpp" />
+    <ClCompile Include="MRIBiasFieldCorrection.cxx" />
+    <ClCompile Include="MRIBiasFiledCorrection.cpp" />
+    <ClCompile Include="MRIData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="itkBSplineControlPointImageFilter.h" />
+    <ClInclude Include="itkImageToVTKImageFilter.h" />
+    <ClInclude Include="itkN3MRIBiasFieldCorrectionImageFilter.h" />
+    <ClInclude Include="itkN4MRIBiasFieldCorrectionImageFilter.h" />
+    <ClInclude Include="itkVTKImageToImageFilter.h" />
+    <ClInclude Include="MRIBiasFiledCorrection.h" />
+    <ClInclude Include="MRIData.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{DF42F32C-4D79-487D-800D-D81C7AB866B8}</ProjectGuid>
     <RootNamespace>N4MRIBiasFieldCorrection</RootNamespace>
@@ -109,9 +129,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="MRIBiasCorrection.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
